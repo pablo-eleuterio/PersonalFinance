@@ -14,11 +14,11 @@ O usuário acessa a opção de cadastrar despesa.
 
 ## Fluxo Principal
 1. O usuário acessa a opção de cadastrar despesa.
-2. O sistema exibe um formulário com os campos para informar a conta financeira, a categoria, o valor, a data, a descrição e o status da despesa, podendo ser paga ou prevista.
+2. O sistema exibe um formulário com os campos para informar a conta financeira, a categoria, o valor, a data, a descrição, o status da despesa, podendo ser paga ou prevista, e a quantidade de repetições mensais, caso o usuário deseje repetir a despesa.
 3. O usuário preenche o formulário.
 4. O usuário aciona a opção “Salvar”.
 5. O sistema valida as informações.
-6. O sistema cadastra a despesa.
+6. O sistema cadastra a despesa e, caso tenha sido informada uma repetição mensal, gera as demais despesas correspondentes.
 7. O sistema informa que a despesa foi cadastrada com sucesso.
 
 ## Fluxo de Exceção

@@ -1,4 +1,4 @@
-# UC18 - Gerar Relatório Financeiro
+ # UC18 - Gerar Relatório Financeiro
 
 ## Objetivo
 Permitir que o usuário gere e consulte seu relatório financeiro referente a um determinado período.
@@ -18,8 +18,8 @@ O usuário acessa a opção de gerar relatório financeiro.
 3. O usuário informa o período.
 4. O usuário confirma a geração do relatório.
 5. O sistema valida o período informado.
-6. O sistema gera o relatório financeiro referente ao período selecionado. 
-7. O sistema exibe as receitas, despesas e economia do período, além do saldo atual consolidado do usuário.
+6. O sistema calcula as receitas, despesas e economia referentes ao período selecionado, além de consultar o total reservado em metas e o saldo disponível atual.
+7. O sistema exibe as receitas, despesas, economia, total reservado em metas, saldo disponível atual e despesas agrupadas por categoria.
 
 ## Fluxo de Exceção
 ### FE01 - Período Inválido

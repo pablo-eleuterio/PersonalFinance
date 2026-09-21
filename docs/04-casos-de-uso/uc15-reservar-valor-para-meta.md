@@ -19,9 +19,9 @@ O usuário acessa a opção de reservar valor para a meta.
 3. O usuário informa o valor e seleciona a conta financeira.
 4. O usuário confirma a reserva.
 5. O sistema valida as informações.
-6. O valor é adicionado à meta.
-7. O sistema desconta o valor reservado do saldo da conta financeira selecionada.
-8. O sistema atualiza o saldo consolidado do usuário.
+6. O sistema registra o valor reservado, vinculando-o à meta e à conta financeira selecionada.
+7. O sistema desconta o valor do saldo disponível da conta financeira selecionada.
+8. O sistema atualiza o saldo consolidado disponível e o progresso da meta.
 
 ## Fluxo de Exceção
 ### FE01 - Saldo insuficiente

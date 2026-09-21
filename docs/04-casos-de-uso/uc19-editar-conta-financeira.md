@@ -16,7 +16,7 @@ O usuário acessa a opção de editar conta financeira.
 ## Fluxo Principal
 1. O usuário acessa a opção de editar conta financeira.
 2. O sistema exibe as informações atuais da conta financeira selecionada.
-3. O usuário altera as informações desejadas.
+3. O usuário altera o nome da conta e, caso a conta não possua movimentações vinculadas, poderá alterar também o saldo inicial.
 4. O usuário confirma a edição.
 5. O sistema valida as informações.
 6. O sistema atualiza a conta financeira.

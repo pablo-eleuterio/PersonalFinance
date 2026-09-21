@@ -16,13 +16,13 @@ O usuário acessa a opção de remover valor da meta.
 
 ## Fluxo Principal
 1. O usuário acessa a opção de remover valor da meta.
-2. O sistema solicita o valor a ser removido e a conta financeira para a qual o valor será retornado.
-3. O usuário informa o valor e seleciona a conta financeira.
+2. O sistema exibe as contas de origem que possuem valores reservados nessa meta e solicita o valor a ser retirado.
+3. O usuário seleciona uma dessas contas e informa o valor.
 4. O usuário confirma a remoção.
 5. O sistema valida as informações.
-6. O sistema remove o valor reservado da meta.
-7. O sistema adiciona o valor removido ao saldo da conta financeira selecionada.
-8. O sistema atualiza o saldo consolidado do usuário.
+6. O sistema reduz o valor reservado da meta, referente à conta selecionada.
+7. O sistema devolve o valor ao saldo disponível da conta de origem.
+8. O sistema atualiza o saldo consolidado disponível e o progresso da meta.
 
 ## Fluxo de Exceção
 ### FE01 - Valor inválido
@@ -31,7 +31,7 @@ O usuário acessa a opção de remover valor da meta.
 3. O sistema informa que o valor a ser removido deve ser maior que 0.
 4. O sistema mantém o usuário no formulário para corrigir as informações.
 
-### FE02 - Valor de remoção maior que o valor reservado na meta
+### FE02 - Valor de retirada maior que o reservado na conta selecionada
 1. No passo 4 do fluxo principal, o usuário confirma a remoção com um valor maior que o valor reservado na meta.
 2. O sistema identifica que o valor informado para a remoção é inválido.
 3. O sistema informa que o valor a ser removido não pode ser maior que o valor reservado na meta.
