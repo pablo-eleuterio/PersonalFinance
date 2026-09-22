@@ -10,7 +10,7 @@ O sistema permitirá que cada usuário gerencie suas receitas, despesas, contas 
 ## Objetivo do Projeto
 Desenvolver uma aplicação Full Stack utilizando Java como principal linguagem de programação, aplicando conceitos de Programação Orientada a Objetos (POO), Spring Boot, banco de dados relacionais, Git e boas práticas de desenvolvimento de software.
 
-O projeto está sendo desenvolvido individualmente com o objetivo de consolidar conhecimentos em desenvolvimento Full Stack, abrangendo as etapas de análise, modelagem, implementação, testes e documentação.
+O projeto está sendo desenvolvido individualmente com o objetivo de aprofundar meus conhecimentos em desenvolvimento backend com Java, além de colocar em prática todas as etapas de construção de uma aplicação web completa, incluindo análise, modelagem, implementação, testes e documentação.
 
 ## Tecnologias ⚙️
 **Backend:** Java 21, Spring Boot e Maven.
